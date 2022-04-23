@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<HTML lang="en" {IF CLASSES}class="classes"{/IF}>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman - The word guessing game</title>
+  <link rel="stylesheet" href="index2.css">
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <div class="wrapper">
+    <h1><u>Hangman Game</u></h1>
+    <h2>Project On Javascript Hangman</h2>
+    <p class="para"><b><u>NOTE:</u> Use the following alphabat to guess the word, also there are some word which is either a full capital word or Only start with a capital letter or just a word with all small letter.</b> </p>
+  </div>
+
+  <div id="buttons">
+  </div>
+
+  <div class="catname">
+    <p id="catagoryName"> </p>
+  </div>
+
+  <p id="hold">
+  </p>
+  <p id="mylives"></p>
+
+  <p id="clue">Clue-</p>
+  <div class="canva">
+    <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+  </div>
+  <div class="container">
+    <button id="hint">Hint</button>
+    <button id="reset">Play again</button>
+  </div>
+
+</body>
+
+</HTML>
